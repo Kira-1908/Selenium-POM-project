@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Suite">
+    <listeners>
+        <listener class-name="utils.SuiteListener"/>
+    </listeners>
+    <test thread-count = "5" name = "test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name = "QA.Test.TestCase1"/>
+        </classes>
+    </test>
+</suite>
+
